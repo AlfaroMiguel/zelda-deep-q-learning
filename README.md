@@ -6,3 +6,6 @@ Trabajo Práctico final para la materia "Sistemas de soporte para celdas de prod
 Integrantes:
 * Alfaro Miguel
 * Moguilevsky Jonathan
+
+Referencias:
+[Enunciado](https://drive.google.com/file/d/1vCzqt39sbROd99gMDyfueunNA5fAO4i7/view)
