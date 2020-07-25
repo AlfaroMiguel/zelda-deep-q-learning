@@ -1,2 +1,8 @@
 # zelda-deep-q-learning
-Zelda Deep Q Learning
+Zelda - Deep Q Learning
+
+Trabajo Práctico final para la materia "Sistemas de soporte para celdas de producción flexible" (75.68) - Facultad de Ingeniería de la Universidad de Buenos Aires.
+
+Integrantes:
+* Alfaro Miguel
+* Moguilevsky Jonathan
