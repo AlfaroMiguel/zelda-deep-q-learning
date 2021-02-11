@@ -1,61 +1,206 @@
-# Eclipse
-.classpath
-.project
-.settings/
-
-# Intellij
-.idea/
-.idea
-*.iml
-*.iws
-
-# Mac
-.DS_Store
-
-# Maven
-log/
-target
-out/
-/bin
-/build/classes/
-/build/dist/
-production/
-
-*.ipr
-*.class
-
-*.html
-*.gif
+sources.txt
 *.pyc
 
-clients/GVGAI-JavaClient/src/sampleRandom.zip
+
+# The following taken from `https://raw.githubusercontent.com/github/gitignore/` under `CC0-1.0`
 
 
-clients/GVGAI-JavaClient/logs/output_server_redirect_err.txt
+##########
+# Python #
+##########
 
-clients/GVGAI-JavaClient/logs/output_server_redirect.txt
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-clients/GVGAI-JavaClient/src/logs/output_server_redirect_err.txt
+# C extensions
+*.so
 
-clients/GVGAI-PythonClient/src/sources.txt
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-clients/GVGAI-PythonClient/src/logs/output_server_redirect_err.txt
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
 
-clients/GVGAI-JavaClient/src/sources.txt
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-clients/GVGAI-JavaClient/src/logs/output_server_redirect.txt
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
 
-clients/GVGAI-JavaClient/src/logs/clientLog.txt
+# Translations
+*.mo
+*.pot
 
-clients/GVGAI-JavaClient/sources.txt
+# Django stuff:
+*.log
+.static_storage/
+.media/
+local_settings.py
 
-clients/GVGAI-JavaClient/logs/clientLog.txt
+# Flask stuff:
+instance/
+.webassets-cache
 
-clients/GVGAI-PythonClient/src/logs/output_server_redirect.txt
+# Scrapy stuff:
+.scrapy
 
-clients/GVGAI-PythonClient/src/logs/clientLog.txt
+# Sphinx documentation
+docs/_build/
 
-#Super secret folder with private games, in the privte repository
-examples/super_secret
-src/META-INF/MANIFEST.MF
-src/rs/META-INF/MANIFEST.MF
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+
+########
+# Java #
+########
+
+# Compiled class file
+**/gvgai/GVGAI_Build/
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+
+#############
+# JetBrains #
+#############
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+
+# Sensitive or high-churn files:
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# Gradle:
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# CMake
+cmake-build-debug/
+cmake-build-release/
+
+# Mongo Explorer plugin:
+.idea/**/mongoSettings.xml
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+#####
+#Mac#
+#####
+
+.DS_Store
