@@ -180,11 +180,8 @@ class Agent():
         if raw_reward > 0:
             return raw_reward * 10
 
-        if action in ['ACTION_NIL']:
+        if action in ['ACTION_NIL', 'ACTION_USE']:
             return -100
-
-        if action in ['ACTION_USE', 'ACTION_LEFT', 'ACTION_RIGHT', 'ACTION_DOWN', 'ACTION_UP']:
-            return -5
 
     def train(self, env):
         # Models
