@@ -4,7 +4,7 @@ Trabajo Práctico final para la materia "Sistemas de soporte para celdas de prod
 
 Integrantes:
 * Miguel Alfaro (97743)
-* Jonathan Moguilevsky ()
+* Jonathan Moguilevsky (95516)
 
 ---------
 
