@@ -183,6 +183,8 @@ class Agent():
         if action in ['ACTION_NIL', 'ACTION_USE']:
             return -100
 
+        return 0
+
     def train(self, env):
         # Models
         self.policy_network = self._init_network(
@@ -220,6 +222,8 @@ class Agent():
                     next_state = self._preprocess_state(next_state)
                     reward = self._preprocess_reward(
                         current_state, next_state, action_id, reward, is_over, debug)
+
+                    print('reward', reward)
                     sum_reward += reward
 
                     info = "action {0: <1}/{1: <15} | tick {2: <10} | reward {3: <5} | sum {4: <5} | is_over {5: <10} | status {6: <10}".format(
@@ -341,8 +345,8 @@ def main():
     zelda_env = gym.make("gvgai-zelda-lvl0-v0")
     agent = Agent()
 
-    # train_agent(zelda_env, agent)
-    play_agent(zelda_env, agent)
+    train_agent(zelda_env, agent)
+    # play_agent(zelda_env, agent)
 
 
 main()
