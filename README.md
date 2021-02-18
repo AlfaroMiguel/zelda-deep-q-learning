@@ -4,21 +4,31 @@ Trabajo Práctico final para la materia "Sistemas de soporte para celdas de prod
 
 Integrantes:
 * Miguel Alfaro (97743)
-* Jonathan Moguilevsky ()
+* Jonathan Moguilevsky (95516)
 
 ---------
+### Informe
+Abrir el siguiente archivo dentro de la carpeta 'celdas'
+```
+Celdas___TP_Final.pdf
+```
 
-### Como usar
+Se recomienda leer el informe antes o mientras se lee el código.
 
-Instalar:
+### Instrucciones
+
+**Instalar dependencias**
+
+Ejecutar en la carpeta 'root' del proyecto:
 ```
 pip3 install -e .
 ```
 
-Correr:
-```
-TODO
-```
+**Probar agentes**
+
+Dentro de los notebooks con el siguiente formato `Zelda-X.ipynb` (en la carpeta 'celdas') se encuentra el código de los agentes utilizados en los distintos intentos.
+
+Este se encuentra listo para entrenar o para cargar un modelo (de la carpeta 'celdas/models') y probar el agente en el entorno Zelda.
 
 ---------
 
